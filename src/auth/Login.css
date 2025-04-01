@@ -1,0 +1,114 @@
+/* 🔹 Scoped styles to `.login-page` to prevent affecting other pages */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Vision Vogue Welcome Message */
+.login-page .welcome-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #8B0000; /* Deep Red */
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.login-page .welcome-subtext {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form Wrapper */
+.login-page .form-wrapper {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Form Styles */
+.login-page .form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-page h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.login-page label {
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.login-page input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.login-page input:focus {
+  border-color: #8B0000;
+  outline: none;
+  box-shadow: 0 0 5px rgba(139, 0, 0, 0.3);
+}
+
+/* Buttons */
+.login-page button {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.login-page button:hover {
+  opacity: 0.9;
+}
+
+/* Login & Sign-up Buttons */
+.login-page button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+}
+
+.login-page button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Toggle Button */
+.login-page .toggle-btn {
+  background-color: #8B0000;
+  color: white;
+  margin-top: 15px;
+}
+
+.login-page .toggle-btn:hover {
+  background-color: #600000;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .login-page .form-wrapper {
+    width: 90%;
+  }
+}

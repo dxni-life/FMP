@@ -1,0 +1,183 @@
+/* ✅ Try-On Container */
+.tryon-container {
+  text-align: center;
+  padding: 40px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* ✅ Error Message */
+.error-message {
+  color: #8B0000;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.error-message button {
+  background-color: #8B0000;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.error-message button:hover {
+  background-color: #600000;
+}
+
+/* ✅ Button Container */
+.tryon-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.start-btn, .stop-btn {
+  background-color: #8B0000;
+  color: white;
+  padding: 14px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.start-btn:hover, .stop-btn:hover {
+  background-color: #600000;
+}
+
+/* ✅ Camera Preview */
+.camera-preview {
+  width: 90%;
+  max-width: 640px;
+  height: 384px;
+  background: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+}
+
+.live-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.capture-btn {
+  position: absolute;
+  bottom: 10px;
+  background-color: #8B0000;
+  color: white;
+  padding: 12px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.capture-btn:hover {
+  background-color: #600000;
+}
+
+/* ✅ Captured Display - Smaller Image */
+.captured-display {
+  margin: 20px auto;
+  max-width: 400px; /* Smaller */
+}
+
+.captured-image {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* ✅ Glasses Display - Bigger Grid */
+.glasses-display {
+  margin: 30px auto;
+  max-width: 1080px; /* Larger grid */
+}
+
+/* ✅ Glasses Grid - Bigger Items */
+.glasses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Bigger */
+  gap: 25px;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+/* ✅ Glasses Preview Card - Bigger */
+.glasses-preview-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.glasses-preview-card:hover {
+  transform: scale(1.05);
+}
+
+/* ✅ Larger Preview Images */
+.captured-preview {
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+.tryon-container {
+  text-align: center;
+  padding: 40px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.tryon-container .error-message {
+  color: #8B0000;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.tryon-container .tryon-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.tryon-container .start-btn, .tryon-container .stop-btn {
+  background-color: #8B0000;
+  color: white;
+  padding: 14px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.tryon-container .camera-preview {
+  width: 90%;
+  max-width: 640px;
+  height: 384px;
+  background: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

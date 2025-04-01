@@ -1,0 +1,143 @@
+/* General Layout */
+.home-container {
+  text-align: center;
+  padding: 10px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Page Title */
+h1 {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #8B0000;
+}
+
+.brand {
+  font-style: italic;
+}
+
+/* Subtitle */
+.intro-text {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+/* Make Intro Description Full Width */
+.full-width-box {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-width: 100%; /* ✅ Full width */
+}
+
+/* Main Content Layout */
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+/* Left Side - Text Sections */
+.text-section {
+  flex: 1;
+  text-align: left;
+}
+
+/* Description Box */
+.description-box {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Try It Now Section */
+.try-now-container {
+  width: 320px;
+  text-align: center;
+  margin-top: 30px; /* ✅ Moved slightly lower */
+}
+
+/* Try It Now Box */
+.try-now-box {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Try It Now Image */
+.image-box img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Try On Button */
+.tryon-button {
+  background-color: #8B0000;
+  color: white;
+  padding: 12px 22px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 100%;
+}
+
+.tryon-button:hover {
+  background-color: #6a0000;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .full-width-box {
+    max-width: 90%;
+  }
+
+  .text-section {
+    max-width: 90%;
+  }
+
+  .try-now-container {
+    width: 90%;
+    margin-top: 40px; /* ✅ Adjusted for better spacing */
+  }
+}
+
+@media (max-width: 768px) {
+  .text-section {
+    max-width: 95%;
+  }
+
+  .try-now-box {
+    max-width: 90%;
+  }
+}

@@ -1,0 +1,73 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #3a3a3a; /* Dark Gray Background */
+    padding: 10px 30px;
+    height: 60px;
+  }
+  
+  /* General Title Styling */
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #8B0000; /* Deep Red */
+    margin-bottom: 20px;
+  }
+  
+  /* Brand Styling */
+  .brand {
+    font-family: "serif";
+    font-style: italic;
+    color: #8B0000;
+    font-size: 52px;
+  }
+  
+  /* Logo */
+  .logo {
+    background: white; /* White Background */
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #8B0000; /* Deep Red */
+    font-style: italic;
+  }
+  
+  /* Center Navigation */
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    flex: 1;
+    justify-content: center; /* Centers menu items */
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .navbar ul li a:hover {
+    color: #cfcfcf;
+  }
+  
+  /* Logout Button */
+  .logout-btn {
+    background: #eaeaea; /* Light Gray Background */
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .logout-btn:hover {
+    background: #dcdcdc;
+  }

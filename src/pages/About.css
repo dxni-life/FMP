@@ -1,0 +1,72 @@
+/* General Layout */
+.about-container {
+    text-align: center;
+    padding: 50px;
+    max-width: 1100px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* General Title Styling */
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #8B0000; /* Deep Red */
+    margin-bottom: 20px;
+    font-style: italic;
+    
+  }
+  
+  /* Brand Styling */
+  .brand {
+    font-family: "serif";
+    font-style: italic;
+    color: #8B0000;
+    font-size: 52px;
+  }
+  
+  /* Logo */
+  .logo {
+    background: white; /* White Background */
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #8B0000; /* Deep Red */
+    text-transform: uppercase;
+  }
+  
+  /* Section Layout */
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  /* Section Headers */
+  .section-header {
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+  }
+  
+  /* Text Boxes */
+  .text-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 48%;
+  }
