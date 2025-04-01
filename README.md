@@ -10,7 +10,7 @@ This full-stack project includes:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Start the React App (Frontend)
 
@@ -42,7 +42,7 @@ python3 app.py
 
 ⸻
 
-📁 Project Structure
+Project Structure
 
 vision-vogue/
 ├── backend/           # Python AI backend (YOLOv8, MediaPipe, etc.)
@@ -59,7 +59,7 @@ vision-vogue/
 
 ⸻
 
-👤 Author
+ Author
 
 Dani Braithwaite
 GitHub: dxni-life
